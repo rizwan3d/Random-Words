@@ -28,7 +28,7 @@ public class RandomStrings {
     {
         String s = "";
         Random rr = new Random();
-        int j = r.nextInt(10);
+        int j = rr.nextInt(10);
         for (int i =0;i <=j;i++)
         {
             Random r = new Random();
@@ -55,8 +55,8 @@ public class RandomStrings {
     {
         String s = "";
         Random rr = new Random();
-	  int j = r.nextInt(35);
-        for(int i = 0 ;i <= j.;i++)
+	  int jj = rr.nextInt(35);
+        for(int i = 0 ;i <= jj.;i++)
         {
             Random r = new Random();
             s += " " + randomString(r.nextInt(9));
@@ -85,8 +85,8 @@ public class RandomStrings {
     {
         String s = "";
         Random rr = new Random();
-	  int j = r.nextInt(4) + 2;
-        for(int i = 0 ;i <= j;i++)
+	  int jj = rr.nextInt(4) + 2;
+        for(int i = 0 ;i <= jj;i++)
         {
             Random r = new Random();
             int j = r.nextInt(10) + r.nextInt(50);
